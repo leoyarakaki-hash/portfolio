@@ -3361,8 +3361,12 @@ input, select, textarea {
 					}
 
 				#wrapper > section.intro > .content {
-					height: 60vh;
+					height: 100vh;
 					max-width: none;
+				}
+				
+				#wrapper > section.intro > .content .image img {
+					object-fit: contain;
 				}
 
 			#wrapper > section:last-of-type > header:before {
